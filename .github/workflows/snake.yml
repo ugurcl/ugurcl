@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate profile assets
 
 on:
   schedule:
@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: Platane/snk@v3
         with:
@@ -15,6 +17,59 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      # The output branch is replaced on every deploy, so every asset must be built in this job.
+      # fail_on_error keeps the last good cards instead of publishing a "Something went wrong" card.
+      - name: Stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=ugurcl&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=ugurcl&theme=tokyonight&hide_border=true&layout=compact
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin cards
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ugurcl&repo=dbridge-mcp&theme=tokyonight&hide_border=true
+          path: dist/pin-dbridge-mcp.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ugurcl&repo=mcpscan&theme=tokyonight&hide_border=true
+          path: dist/pin-mcpscan.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ugurcl&repo=tether&theme=tokyonight&hide_border=true
+          path: dist/pin-tether.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ugurcl&repo=devterm&theme=tokyonight&hide_border=true
+          path: dist/pin-devterm.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
