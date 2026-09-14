@@ -18,6 +18,10 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      # snk runs in a Docker container as root, which leaves dist/ unwritable for the card steps.
+      - name: Take ownership of dist
+        run: sudo chown -R "$(id -u):$(id -g)" dist
+
       # The output branch is replaced on every deploy, so every asset must be built in this job.
       # fail_on_error keeps the last good cards instead of publishing a "Something went wrong" card.
       - name: Stats card
