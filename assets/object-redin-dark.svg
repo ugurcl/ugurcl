@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 300" width="412" height="300" role="img" aria-label="redin: A job-rejection simulator: interview with an AI recruiter, then get turned down for an absurd reason. Drawn as a star cluster with one star for each of its 34 commits. 34 commits, since Jul 2026, live at redin.shipetch.com.">
+  <defs>
+    <filter id="wide" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="haze" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+    <radialGradient id="core"><stop offset="0" stop-color="#fff8e6" stop-opacity="0.85"/><stop offset="0.3" stop-color="#bee2ff" stop-opacity="0.3"/><stop offset="1" stop-color="#7cc4ff" stop-opacity="0"/></radialGradient>
+    <clipPath id="plate"><rect width="412" height="300" rx="8"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace; }
+    @keyframes b0{0%,0%{opacity:0}1.4%,95%{opacity:1}100%{opacity:0}}.b0{animation:b0 32s linear infinite}
+    @keyframes b7{0%,9.8%{opacity:0}11.3%,95%{opacity:1}100%{opacity:0}}.b7{animation:b7 32s linear infinite}
+    @keyframes b19{0%,26.7%{opacity:0}28.1%,95%{opacity:1}100%{opacity:0}}.b19{animation:b19 32s linear infinite}
+    @keyframes now{0%,28.1%{opacity:0}29.5%,95%{opacity:1}100%{opacity:0}}.now{animation:now 32s linear infinite}
+    .form { animation: form 32s linear infinite; }
+    @keyframes form { 0% { opacity: 0.16; } 28.1%, 95% { opacity: 1; } 100% { opacity: 0.16; } }
+    .tw { animation: tw 1.7s ease-in-out infinite alternate; }
+    @keyframes tw { from { opacity: 0.15; } to { opacity: 0.95; } }
+    @media (prefers-reduced-motion: reduce) { g[class], .form, .tw { animation: none; } }
+  </style>
+  <g>
+    
+    <g class="form">
+      <g filter="url(#wide)" opacity="0.2"><path d="M210 106.4h0M211.4 101.6h0M202.5 80h0M189.9 119.8h0M211.2 109.5h0M214.3 110.8h0M178.9 90.7h0M198 93.8h0M195.3 88.5h0M207.7 123.9h0M224.9 107.9h0M198.6 122.8h0M165.7 104.2h0M171.3 114.9h0M199.4 81.2h0M248.7 105.6h0M206.8 42.3h0M128 92.1h0M170.1 52.9h0M181.5 126.3h0M214.8 152h0M275.9 140.4h0M244.2 146.8h0M161.3 82.2h0M238 96.6h0M201.2 48.3h0M233.9 121.9h0M218.8 68.7h0M168.9 27.1h0M189.1 77.7h0M134.7 81.1h0M250.9 193.4h0M269.5 101.2h0M221.4 72h0" stroke="#a3d6ff" stroke-width="22" stroke-linecap="round" fill="none"/></g>
+      <g filter="url(#haze)" opacity="0.4"><path d="M210 106.4h0M211.4 101.6h0M202.5 80h0M189.9 119.8h0M211.2 109.5h0M214.3 110.8h0M178.9 90.7h0M198 93.8h0M195.3 88.5h0M207.7 123.9h0M224.9 107.9h0M198.6 122.8h0M165.7 104.2h0M171.3 114.9h0M199.4 81.2h0M248.7 105.6h0M206.8 42.3h0M128 92.1h0M170.1 52.9h0M181.5 126.3h0M214.8 152h0M275.9 140.4h0M244.2 146.8h0M161.3 82.2h0M238 96.6h0M201.2 48.3h0M233.9 121.9h0M218.8 68.7h0M168.9 27.1h0M189.1 77.7h0M134.7 81.1h0M250.9 193.4h0M269.5 101.2h0M221.4 72h0" stroke="#a3d6ff" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+      <ellipse cx="206" cy="104" rx="15.1" ry="10.8" fill="url(#core)"/>
+    </g>
+    <g stroke="#d8edff" stroke-linecap="round" fill="none"><g class="b0"><path d="M224.9 107.9h0M198.6 122.8h0M165.7 104.2h0M171.3 114.9h0M199.4 81.2h0M248.7 105.6h0M206.8 42.3h0M128 92.1h0M170.1 52.9h0M181.5 126.3h0M214.8 152h0M275.9 140.4h0M244.2 146.8h0M161.3 82.2h0M238 96.6h0M201.2 48.3h0M233.9 121.9h0M218.8 68.7h0M168.9 27.1h0M189.1 77.7h0M134.7 81.1h0M250.9 193.4h0M269.5 101.2h0M221.4 72h0" stroke-width="2.7" opacity="0.7"/></g><g class="b7"><path d="M214.3 110.8h0M178.9 90.7h0M198 93.8h0M195.3 88.5h0M207.7 123.9h0" stroke-width="2.7" opacity="0.7"/></g><g class="b19"><path d="M210 106.4h0M211.4 101.6h0M202.5 80h0M189.9 119.8h0M211.2 109.5h0" stroke-width="2.7" opacity="0.7"/></g></g>
+    <g class="now"><path class="tw" d="M210 106.4h0M211.4 101.6h0M202.5 80h0M189.9 119.8h0M211.2 109.5h0" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none"/></g>
+    
+    <text x="16" y="24" class="mono" font-size="8.5" letter-spacing="1" fill="#7cc4ff" opacity="0.85">WEB</text>
+    <text x="16" y="222" class="sans" font-size="17" font-weight="600" fill="#e6edf3">redin</text>
+    <text x="16" y="242" class="sans" font-size="12" fill="#8b949e">A job-rejection simulator: interview with an AI</text><text x="16" y="258" class="sans" font-size="12" fill="#8b949e">recruiter, then get turned down for an absurd reason.</text>
+    <text x="16" y="288" class="mono" font-size="9" letter-spacing="0.6" fill="#8b949e">34 COMMITS  ·  SINCE JUL 2026  ·  LIVE AT REDIN.SHIPETCH.COM</text>
+  </g>
+</svg>

@@ -3,38 +3,27 @@
 Back-end developer working mostly with **Node.js** and **TypeScript**. I build APIs and services, and lately a lot of developer tooling around MCP and AI agents.
 
 <p>
+  <a href="https://ugurcaliskan.net/"><img src="https://img.shields.io/badge/ugurcaliskan.net-1a1b27?style=for-the-badge&logo=googlechrome&logoColor=7dcfff" alt="ugurcaliskan.net"/></a>
   <a href="https://linkedin.com/in/uğur-çalışkan-b39608267"><img src="https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn"/></a>
   <a href="https://www.npmjs.com/~ugurcl"><img src="https://img.shields.io/badge/npm-1a1b27?style=for-the-badge&logo=npm&logoColor=bb9af7" alt="npm"/></a>
 </p>
 
 ### Projects
 
-- **[dbridge-mcp](https://github.com/ugurcl/dbridge-mcp)** — MCP server that gives AI agents read-only access to SQLite, PostgreSQL and MySQL, with column masking, row caps and query cost limits.
-- **[mcpscan](https://github.com/ugurcl/mcpscan)** — Security scanner for MCP servers. Flags tool poisoning, hidden instructions and over-broad capabilities before you connect a server to an agent.
-- **[tether](https://github.com/ugurcl/tether)** — Generates a typed TypeScript client from Django REST Framework serializers, so the frontend can't silently drift from the API.
-- **[devterm](https://github.com/ugurcl/devterm)** — Electron terminal with split panes, SSH connections and SFTP upload.
+<p>
+  <a href="https://github.com/emetgate/emetgate"><img src="assets/object-emetgate-dark.svg#gh-dark-mode-only" alt="emetgate: a gate between a coding model and your source tree. A change reaches disk only if the checks pass." width="49%"><img src="assets/object-emetgate-light.svg#gh-light-mode-only" alt="emetgate: a gate between a coding model and your source tree. A change reaches disk only if the checks pass." width="49%"></a>
+  <a href="https://github.com/ugurcl/dbridge-mcp"><img src="assets/object-dbridge-mcp-dark.svg#gh-dark-mode-only" alt="dbridge-mcp: lets an AI agent query a SQL database, safely and read-only." width="49%"><img src="assets/object-dbridge-mcp-light.svg#gh-light-mode-only" alt="dbridge-mcp: lets an AI agent query a SQL database, safely and read-only." width="49%"></a>
+</p>
 
-<div align="center">
-  <a href="https://github.com/ugurcl/dbridge-mcp"><img src="https://raw.githubusercontent.com/ugurcl/ugurcl/output/pin-dbridge-mcp.svg" width="49%" alt="dbridge-mcp"/></a>
-  <a href="https://github.com/ugurcl/mcpscan"><img src="https://raw.githubusercontent.com/ugurcl/ugurcl/output/pin-mcpscan.svg" width="49%" alt="mcpscan"/></a>
-  <a href="https://github.com/ugurcl/tether"><img src="https://raw.githubusercontent.com/ugurcl/ugurcl/output/pin-tether.svg" width="49%" alt="tether"/></a>
-  <a href="https://github.com/ugurcl/devterm"><img src="https://raw.githubusercontent.com/ugurcl/ugurcl/output/pin-devterm.svg" width="49%" alt="devterm"/></a>
-</div>
+<p>
+  <a href="https://github.com/ugurcl/tether"><img src="assets/object-tether-dark.svg#gh-dark-mode-only" alt="tether: generates a typed TypeScript client from Django REST Framework serializers." width="49%"><img src="assets/object-tether-light.svg#gh-light-mode-only" alt="tether: generates a typed TypeScript client from Django REST Framework serializers." width="49%"></a>
+  <a href="https://github.com/ugurcl/alinmadin"><img src="assets/object-redin-dark.svg#gh-dark-mode-only" alt="Redin: a job-rejection simulator. You apply, sit an interview with an AI recruiter, and get turned down for an absurd reason." width="49%"><img src="assets/object-redin-light.svg#gh-light-mode-only" alt="Redin: a job-rejection simulator. You apply, sit an interview with an AI recruiter, and get turned down for an absurd reason." width="49%"></a>
+</p>
 
 ### Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,typescript,express,python,django,postgres,mongodb,docker,git&theme=dark" alt="Node.js, TypeScript, Express, Python, Django, PostgreSQL, MongoDB, Docker, Git"/>
-</p>
+<img src="assets/spectrum-dark.svg#gh-dark-mode-only" alt="A spectrum of the code in my repositories, one bright line per language, as wide as its share: TypeScript 30%, JavaScript 19%, HTML 16%, Python 14%, Zig 13%, PHP 4%, CSS 3%. Around them: Express, Django, PostgreSQL, MongoDB, Docker." width="100%"><img src="assets/spectrum-light.svg#gh-light-mode-only" alt="A spectrum of the code in my repositories, one bright line per language, as wide as its share: TypeScript 30%, JavaScript 19%, HTML 16%, Python 14%, Zig 13%, PHP 4%, CSS 3%. Around them: Express, Django, PostgreSQL, MongoDB, Docker." width="100%">
 
-### GitHub
+### Commits
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ugurcl/ugurcl/output/stats.svg" height="165" alt="GitHub stats"/>
-  <img src="https://raw.githubusercontent.com/ugurcl/ugurcl/output/top-langs.svg" height="165" alt="Top languages"/>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ugurcl/ugurcl/output/github-snake-dark.svg"/>
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/ugurcl/ugurcl/output/github-snake.svg"/>
-</picture>
+<img src="assets/galaxy-dark.svg#gh-dark-mode-only" alt="A spiral galaxy with one star for each of my commits since June 2025, public and private. Five arms: web scraping, web, mobile, AI and dev tooling, bots and automation. It forms in the order the commits were made, and five marked stars are releases." width="100%"><img src="assets/galaxy-light.svg#gh-light-mode-only" alt="A spiral galaxy with one star for each of my commits since June 2025, public and private. Five arms: web scraping, web, mobile, AI and dev tooling, bots and automation. It forms in the order the commits were made, and five marked stars are releases." width="100%">

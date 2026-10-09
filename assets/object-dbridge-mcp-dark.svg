@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 300" width="412" height="300" role="img" aria-label="dbridge-mcp: Lets an AI agent query a SQL database, safely and read-only. Drawn as a star cluster with one star for each of its 46 commits and a brighter star for each of its 2 published versions. 46 commits, since Jul 2026, npm v0.7.1.">
+  <defs>
+    <filter id="wide" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="haze" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+    <radialGradient id="core"><stop offset="0" stop-color="#fff8e6" stop-opacity="0.85"/><stop offset="0.3" stop-color="#c6f8da" stop-opacity="0.3"/><stop offset="1" stop-color="#8df0b4" stop-opacity="0"/></radialGradient>
+    <clipPath id="plate"><rect width="412" height="300" rx="8"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace; }
+    @keyframes b0{0%,0%{opacity:0}1.4%,95%{opacity:1}100%{opacity:0}}.b0{animation:b0 32s linear infinite}
+    @keyframes b2{0%,2.8%{opacity:0}4.2%,95%{opacity:1}100%{opacity:0}}.b2{animation:b2 32s linear infinite}
+    @keyframes b4{0%,5.6%{opacity:0}7%,95%{opacity:1}100%{opacity:0}}.b4{animation:b4 32s linear infinite}
+    @keyframes b5{0%,7%{opacity:0}8.4%,95%{opacity:1}100%{opacity:0}}.b5{animation:b5 32s linear infinite}
+    @keyframes b19{0%,26.7%{opacity:0}28.1%,95%{opacity:1}100%{opacity:0}}.b19{animation:b19 32s linear infinite}
+    @keyframes r0{0%,2.8%{opacity:0}4.2%,95%{opacity:1}100%{opacity:0}}.r0{animation:r0 32s linear infinite}
+    @keyframes r1{0%,5.6%{opacity:0}7%,95%{opacity:1}100%{opacity:0}}.r1{animation:r1 32s linear infinite}
+    @keyframes now{0%,28.1%{opacity:0}29.5%,95%{opacity:1}100%{opacity:0}}.now{animation:now 32s linear infinite}
+    .form { animation: form 32s linear infinite; }
+    @keyframes form { 0% { opacity: 0.16; } 28.1%, 95% { opacity: 1; } 100% { opacity: 0.16; } }
+    .tw { animation: tw 1.7s ease-in-out infinite alternate; }
+    @keyframes tw { from { opacity: 0.15; } to { opacity: 0.95; } }
+    @media (prefers-reduced-motion: reduce) { g[class], .form, .tw { animation: none; } }
+  </style>
+  <g>
+    
+    <g class="form">
+      <g filter="url(#wide)" opacity="0.2"><path d="M208.2 106.3h0M200.3 100.7h0M237.7 101.8h0M237.6 108.9h0M203.4 100.3h0M201.6 99.3h0M230.7 107.4h0M212.7 97.6h0M188.1 104.9h0M181.2 107h0M193.3 97.1h0M203.6 87h0M190.4 128.4h0M242.1 86.5h0M222 90.3h0M200 130.1h0M204.1 151.4h0M147.4 80h0M262.3 107.8h0M249.6 93.4h0M235 72.9h0M148 90.7h0M252.3 111.9h0M191.6 81.9h0M200.9 81.8h0M271.4 89.8h0M213.4 88.1h0M169.5 128h0M288.2 85.5h0M193.3 89h0M255.6 125.4h0M294 125.6h0M150.6 128.8h0M172.5 127.5h0M249.7 92.9h0M181.4 102.7h0M247.1 90.1h0M249.2 26.6h0M226.4 135.9h0M129.5 85.4h0M321.7 70.5h0M247.4 126.8h0M169.8 117.7h0M136 82.7h0M197.3 122.7h0M190.5 131.8h0" stroke="#aff5cb" stroke-width="22" stroke-linecap="round" fill="none"/></g>
+      <g filter="url(#haze)" opacity="0.4"><path d="M208.2 106.3h0M200.3 100.7h0M237.7 101.8h0M237.6 108.9h0M203.4 100.3h0M201.6 99.3h0M230.7 107.4h0M212.7 97.6h0M188.1 104.9h0M181.2 107h0M193.3 97.1h0M203.6 87h0M190.4 128.4h0M242.1 86.5h0M222 90.3h0M200 130.1h0M204.1 151.4h0M147.4 80h0M262.3 107.8h0M249.6 93.4h0M235 72.9h0M148 90.7h0M252.3 111.9h0M191.6 81.9h0M200.9 81.8h0M271.4 89.8h0M213.4 88.1h0M169.5 128h0M288.2 85.5h0M193.3 89h0M255.6 125.4h0M294 125.6h0M150.6 128.8h0M172.5 127.5h0M249.7 92.9h0M181.4 102.7h0M247.1 90.1h0M249.2 26.6h0M226.4 135.9h0M129.5 85.4h0M321.7 70.5h0M247.4 126.8h0M169.8 117.7h0M136 82.7h0M197.3 122.7h0M190.5 131.8h0" stroke="#aff5cb" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+      <ellipse cx="206" cy="104" rx="15.5" ry="11" fill="url(#core)"/>
+    </g>
+    <g stroke="#ddfbe9" stroke-linecap="round" fill="none"><g class="b0"><path d="M288.2 85.5h0M255.6 125.4h0M150.6 128.8h0M172.5 127.5h0M181.4 102.7h0M129.5 85.4h0M190.5 131.8h0" stroke-width="2.7" opacity="0.7"/><path d="M193.3 89h0M294 125.6h0M249.2 26.6h0M247.4 126.8h0M136 82.7h0M197.3 122.7h0" stroke-width="4.9" opacity="1"/><path d="M249.7 92.9h0M247.1 90.1h0M226.4 135.9h0M321.7 70.5h0M169.8 117.7h0" stroke-width="3.6" opacity="0.88"/></g><g class="b2"><path d="M200 130.1h0M204.1 151.4h0M147.4 80h0M262.3 107.8h0M249.6 93.4h0M235 72.9h0M148 90.7h0M252.3 111.9h0M191.6 81.9h0M200.9 81.8h0M213.4 88.1h0" stroke-width="2.7" opacity="0.7"/><path d="M271.4 89.8h0M169.5 128h0" stroke-width="4.9" opacity="1"/></g><g class="b4"><path d="M212.7 97.6h0M188.1 104.9h0M181.2 107h0M190.4 128.4h0M242.1 86.5h0M222 90.3h0" stroke-width="2.7" opacity="0.7"/><path d="M193.3 97.1h0M203.6 87h0" stroke-width="3.6" opacity="0.88"/></g><g class="b5"><path d="M200.3 100.7h0M237.6 108.9h0M201.6 99.3h0" stroke-width="3.6" opacity="0.88"/><path d="M237.7 101.8h0M203.4 100.3h0M230.7 107.4h0" stroke-width="4.9" opacity="1"/></g><g class="b19"><path d="M208.2 106.3h0" stroke-width="2.7" opacity="0.7"/></g></g>
+    <g class="now"><path class="tw" d="" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none"/></g>
+    <g class="r0"><path d="M254.3 107.8h16M262.3 99.8v16" stroke="#c6f8da" stroke-width="0.7"/><circle cx="262.3" cy="107.8" r="2.2" fill="#fff"/></g><g class="r1"><path d="M204.7 97.6h16M212.7 89.6v16" stroke="#c6f8da" stroke-width="0.7"/><circle cx="212.7" cy="97.6" r="2.2" fill="#fff"/></g>
+    <text x="16" y="24" class="mono" font-size="8.5" letter-spacing="1" fill="#8df0b4" opacity="0.85">AI &amp; DEV TOOLING</text>
+    <text x="16" y="222" class="sans" font-size="17" font-weight="600" fill="#e6edf3">dbridge-mcp</text>
+    <text x="16" y="242" class="sans" font-size="12" fill="#8b949e">Lets an AI agent query a SQL database, safely and</text><text x="16" y="258" class="sans" font-size="12" fill="#8b949e">read-only.</text>
+    <text x="16" y="288" class="mono" font-size="9" letter-spacing="0.6" fill="#8b949e">46 COMMITS  ·  SINCE JUL 2026  ·  NPM V0.7.1</text>
+  </g>
+</svg>
