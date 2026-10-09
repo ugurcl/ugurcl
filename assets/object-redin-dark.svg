@@ -8,12 +8,12 @@
   <style>
     .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace; }
-    @keyframes b0{0%,0%{opacity:0}1.4%,95%{opacity:1}100%{opacity:0}}.b0{animation:b0 32s linear infinite}
-    @keyframes b7{0%,9.8%{opacity:0}11.3%,95%{opacity:1}100%{opacity:0}}.b7{animation:b7 32s linear infinite}
-    @keyframes b19{0%,26.7%{opacity:0}28.1%,95%{opacity:1}100%{opacity:0}}.b19{animation:b19 32s linear infinite}
-    @keyframes now{0%,28.1%{opacity:0}29.5%,95%{opacity:1}100%{opacity:0}}.now{animation:now 32s linear infinite}
-    .form { animation: form 32s linear infinite; }
-    @keyframes form { 0% { opacity: 0.16; } 28.1%, 95% { opacity: 1; } 100% { opacity: 0.16; } }
+    @keyframes b0{0%,25%{opacity:1}29.4%,29.4%{opacity:0}30.7%,100%{opacity:1}}.b0{animation:b0 36s linear infinite}
+    @keyframes b7{0%,25%{opacity:1}29.4%,38.2%{opacity:0}39.4%,100%{opacity:1}}.b7{animation:b7 36s linear infinite}
+    @keyframes b19{0%,25%{opacity:1}29.4%,53.2%{opacity:0}54.4%,100%{opacity:1}}.b19{animation:b19 36s linear infinite}
+    @keyframes now{0%,25%{opacity:1}29.4%,54.4%{opacity:0}55.7%,100%{opacity:1}}.now{animation:now 36s linear infinite}
+    .form { animation: form 36s linear infinite; }
+    @keyframes form { 0%, 25% { opacity: 1; } 29.4% { opacity: 0.16; } 54.4%, 100% { opacity: 1; } }
     .tw { animation: tw 1.7s ease-in-out infinite alternate; }
     @keyframes tw { from { opacity: 0.15; } to { opacity: 0.95; } }
     @media (prefers-reduced-motion: reduce) { g[class], .form, .tw { animation: none; } }
