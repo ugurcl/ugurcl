@@ -1,6 +1,6 @@
 ## Hi, I'm Uğur
 
-Back-end developer working mostly with **Node.js** and **TypeScript**. I build APIs and services, and lately a lot of developer tooling around MCP and AI agents.
+Back-end developer working in **Node.js** (TypeScript) and **Python**. I build APIs and data-collection services, and tools that keep AI agents in check.
 
 <p>
   <a href="https://ugurcaliskan.net/"><img src="https://img.shields.io/badge/ugurcaliskan.net-1a1b27?style=for-the-badge&logo=googlechrome&logoColor=7dcfff" alt="ugurcaliskan.net"/></a>
